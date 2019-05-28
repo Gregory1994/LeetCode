@@ -1,0 +1,20 @@
+Title="example: 2d finite-element data"
+variables ="x","y","S1"
+zone N=8,E=3, datapacking=block
+varlocation=([3]=cellcentered)
+zonetype=fequadrilateral
+0 0 0 0 1 1 1 1 
+0 1 2 3 0 1 2 3
+10
+-5
+1.0
+1 5 6 2
+2 6 7 3
+3 7 8 4
+.0
+
+1 5 6 2
+
+2 6 7 3
+
+3 7 8 4
